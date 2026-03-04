@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;  /* White background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;  /* White box */
+    padding: 30px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2e59d9;
+}
+
+a {
+    text-decoration: none;
+    color: #4e73df;
+}
+
+.profile-box {
+    text-align: left;
+}
+
+.success {
+    color: green;
+    text-align: center;
+}
+
+/* Optional spacing for buttons in profile page */
+.profile-box form {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
